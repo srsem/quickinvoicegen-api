@@ -12,6 +12,8 @@ A simple API to generate PDF invoices. At this time the API supports only one ba
 
 The API is accessed via send a POST request to the  [https://quickinvoicegen.com/pdf](https://quickinvoicegen.com/pdf) endpoint. Client can send an unlimited number of requests, however requests are rate limited. The endpoint will return `403` HTTP error if the rate limit is breached.
 
+The API doesn't store any information related to the request on the server. 
+
 
 ### Request parameters
 
@@ -110,7 +112,7 @@ If the name of the tax needs to be overridden in the totals section of the invoi
 
 ```
 curl \
--X POST "https://dev.quickinvoicegen.com/pdf" \
+-X POST "https://quickinvoicegen.com/pdf" \
 -d currency="CAD" \
 -d from[name]="A Canadian Company" \
 -d bill_to[name]="A Canadian Client" \
