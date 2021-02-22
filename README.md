@@ -219,3 +219,5 @@ curl \
 -o invoice_label_override.pdf
 
 ```
+
+[https://github.com/ssemenyuk-dev/quickinvoicegen-api](https://github.com/ssemenyuk-dev/quickinvoicegen-api)
