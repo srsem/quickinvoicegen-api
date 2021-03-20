@@ -220,4 +220,4 @@ curl \
 
 ```
 
-[https://github.com/ssemenyuk-dev/quickinvoicegen-api](https://github.com/ssemenyuk-dev/quickinvoicegen-api)
+[https://github.com/srsem/quickinvoicegen-api](https://github.com/ssemenyuk-dev/quickinvoicegen-api)
